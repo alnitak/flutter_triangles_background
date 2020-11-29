@@ -4,6 +4,7 @@ Animated triangles background widget with color gradients
 
 ## Getting Started
 
+click image to see the video
 [![Watch the video](https://img.youtube.com/vi/61ba6xrJYGA/maxresdefault.jpg)](https://youtu.be/61ba6xrJYGA)
 
 ## Usage
