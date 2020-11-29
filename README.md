@@ -26,6 +26,17 @@ import package
 
 ```
 
+or
+
+```dart
+
+    triangles_background:
+        git:
+          url: https://github.com/alnitak/flutter_triangles_background
+          ref: master
+
+```
+
 simple example
 ```dart
 

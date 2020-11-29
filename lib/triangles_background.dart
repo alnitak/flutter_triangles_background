@@ -92,20 +92,22 @@ class _TrianglesState extends State<Triangles> with TickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
-    return _Triangles(
-      v1Color: widget.v1Color,
-      v2Color: widget.v2Color,
-      v3Color: widget.v3Color,
-      v4Color: widget.v4Color,
-      lineColor: widget.lineColor,
-      strokeWidth: widget.strokeWidth,
-      circleRadius: widget.circleRadius,
-      hSpace: widget.hSpace,
-      vSpace: widget.vSpace,
-      hDivisions: widget.hDivisions,
-      vDivisions: widget.vDivisions,
-      speedMin: widget.speedMin,
-      speedMax: widget.speedMax,
+    return ClipRRect(
+      child: _Triangles(
+        v1Color: widget.v1Color,
+        v2Color: widget.v2Color,
+        v3Color: widget.v3Color,
+        v4Color: widget.v4Color,
+        lineColor: widget.lineColor,
+        strokeWidth: widget.strokeWidth,
+        circleRadius: widget.circleRadius,
+        hSpace: widget.hSpace,
+        vSpace: widget.vSpace,
+        hDivisions: widget.hDivisions,
+        vDivisions: widget.vDivisions,
+        speedMin: widget.speedMin,
+        speedMax: widget.speedMax,
+      ),
     );
   }
 }
@@ -352,6 +354,7 @@ class _RenderTriangles extends RenderProxyBox/*WithHitTestBehavior*/ {
     _speedMax = speedMax;
     markNeedsPaint();
   }
+
 
   @override
   void performLayout() {

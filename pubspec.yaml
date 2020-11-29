@@ -1,6 +1,6 @@
 name: triangles_background
 description: Animated triangles background widget with color gradients
-version: 1.0.0
+version: 1.0.1
 author: Marco Bavagnoli
 homepage: https://github.com/alnitak/flutter_triangles_background
 repository: https://github.com/alnitak/flutter_triangles_background
