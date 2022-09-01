@@ -1,6 +1,6 @@
 # Triangles background
 
-Animated triangles background widget with color gradients
+Animated triangles background widget with color gradients using RenderObjectWidget instead of a CustomPainter
 
 ## Getting Started
 
